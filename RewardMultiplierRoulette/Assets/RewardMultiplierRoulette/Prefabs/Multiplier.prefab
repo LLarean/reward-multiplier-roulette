@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8232857524816357714}
   - component: {fileID: 7605399955656747159}
+  - component: {fileID: 1532727422699798729}
   - component: {fileID: 8346377086278514550}
   m_Layer: 5
   m_Name: Multiplier
@@ -45,6 +46,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4586003661712785309}
   m_CullTransparentMesh: 1
+--- !u!114 &1532727422699798729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4586003661712785309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60100ce44b414125b70a9660f3f64cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rectTransform: {fileID: 8232857524816357714}
+  _value: 2
 --- !u!114 &8346377086278514550
 MonoBehaviour:
   m_ObjectHideFlags: 0
